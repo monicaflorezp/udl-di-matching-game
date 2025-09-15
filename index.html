@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDL & DI Matching Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>UDL & DI Matching Game</h1>
+        <div class="instructions">
+            Match the Universal Design for Learning (UDL) principles and Differentiated Instruction (DI) elements to the correct questions. Click cards to flip and see descriptions.
+        </div>
+        <div class="game-area">
+            <div id="card-container" class="card-container"></div>
+            <div id="workspace" class="workspace">
+                <div class="drop-zone" data-question-id="1">
+                    <div class="question-text">1. How can I present information to my students so that they can understand it?</div>
+                </div>
+                <div class="drop-zone" data-question-id="2">
+                    <div class="question-text">2. How can students learn and practice the skills needed to succeed?</div>
+                </div>
+                <div class="drop-zone" data-question-id="3">
+                    <div class="question-text">3. How can students show that they have learned?</div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback-area">
+            <div id="score-display" class="score-display"></div>
+            <div id="feedback-message" class="feedback-message"></div>
+        </div>
+        <div class="button-container">
+            <button id="check-btn">Check Responses</button>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
